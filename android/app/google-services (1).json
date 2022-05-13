@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "902580733905",
+    "project_id": "pethub-280ff",
+    "storage_bucket": "pethub-280ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902580733905:android:54dced57b9c96043f482f0",
+        "android_client_info": {
+          "package_name": "com.example.adoptehub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902580733905-0nlg4f83hlerhvdrpt67prv4e80vgnie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwNoxeNv2lLUyG3fb-SQVZJLyKi3Ml0ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902580733905-0nlg4f83hlerhvdrpt67prv4e80vgnie.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "902580733905-t8j78rscq26j9ksdpkpv6huougjv55l4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.adoptehub"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

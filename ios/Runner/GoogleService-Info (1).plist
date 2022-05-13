@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>902580733905-t8j78rscq26j9ksdpkpv6huougjv55l4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.902580733905-t8j78rscq26j9ksdpkpv6huougjv55l4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBNrEYQiudqdbi8872oVewPpLL98Y2RqJM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>902580733905</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.adoptehub</string>
+	<key>PROJECT_ID</key>
+	<string>pethub-280ff</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pethub-280ff.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:902580733905:ios:2b857ea2fa1aff4df482f0</string>
+</dict>
+</plist>

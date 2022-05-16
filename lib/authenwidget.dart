@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -74,11 +76,12 @@ OutlinedButton facebookLoginButton() {
   );
 }
 
-  AppBar appbarAuthen(BuildContext context) {
+  AppBar appbarAuthen(BuildContext context,String headApp) {
     return AppBar(
       systemOverlayStyle: SystemUiOverlayStyle.dark,
       backgroundColor: Colors.transparent,
       elevation: 0,
+      title: Text(headApp,style: const TextStyle(color: Colors.black),),
       leading: GestureDetector(
         onTap: () {
           Navigator.pop(context);

@@ -6,6 +6,8 @@ import 'package:adoptehub/authenpage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+
+import 'listcontract.dart';
       
 
 AppBar appbar() {
@@ -192,7 +194,14 @@ Builder navbar() {
                 icon: Icons.messenger_outline_rounded,
                 text: 'Chat',
                 onPressed: () {
-                  print('Message');
+                int checkstatus = 2;
+                  // ignore: unused_local_variable
+                  if (checkstatus == 2) {
+                     Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ListChat() ));
+                    print(checkstatus);
+                  } else{
+                    print('non value');
+                  }
                 },
               ),
               GButton(

@@ -21,7 +21,7 @@ class _AuthenState extends State<Authen> {
     // ignore: prefer_typing_uninitialized_variables
 
     return Scaffold(
-      appBar: appbarAuthen(context),
+      appBar: appbarAuthen(context,'Sign in'),
       body: SingleChildScrollView(
         physics: const BouncingScrollPhysics(),
         child: Column(

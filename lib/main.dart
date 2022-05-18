@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         primarySwatch: Colors.blue,
         textTheme: GoogleFonts.montserratTextTheme(),
-      ),
+      ), 
       // darkTheme: ThemeData(
-      //   // brightness: Brightness.dark,
+      //   // brightness: Brightness.dark, 
       // ),
       debugShowCheckedModeBanner: false,
       home: const MyHomePage(),

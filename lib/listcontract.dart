@@ -21,13 +21,18 @@ class _ListChatState extends State<ListChat> {
         itemBuilder: (context, i) {
           return SingleChildScrollView(
             physics: const BouncingScrollPhysics(),
-            child: Card(
-              child: ListTile(
-                leading: const CircleAvatar(
-                  backgroundImage: NetworkImage(
-                      "https://mpics.mgronline.com/pics/Images/563000009086001.JPEG", ),
+            child: GestureDetector(
+              onTap: () {
+                print(dateTest[i]);
+              },
+              child: Card(
+                child: ListTile(
+                  leading: const CircleAvatar(
+                    backgroundImage: NetworkImage(
+                        "https://mpics.mgronline.com/pics/Images/563000009086001.JPEG", ),
+                  ),
+                  title: Text(dateTest[i],),
                 ),
-                title: Text(dateTest[i],),
               ),
             ),
           );

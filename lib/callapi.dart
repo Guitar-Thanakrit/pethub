@@ -14,7 +14,7 @@ class FakeApi {
       print('fail');
     }
   }
-
+//call firebase cli
   Future fluttercli() async {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,

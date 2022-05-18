@@ -151,18 +151,19 @@ Builder navbar() {
   return Builder(
     builder: (context) {
       return Container(
-        color: Colors.white,
+        // color: Colors.white,
         child: Padding(
           padding: const EdgeInsets.symmetric(
             horizontal: 15.0,
             vertical: 20,
           ),
           child: GNav(
+            rippleColor: Colors.grey.shade800, 
             textStyle: const TextStyle(
               fontSize: 10,
               fontWeight: FontWeight.bold,
             ),
-            backgroundColor: Colors.white,
+            // backgroundColor: Color.fromARGB(255, 94, 84, 84),
             color: Colors.black,
             activeColor: Colors.black,
             tabBackgroundColor: Colors.black12,
@@ -170,6 +171,7 @@ Builder navbar() {
             padding: const EdgeInsets.all(16),
             tabs: [
               GButton(
+                iconActiveColor: Colors.black,
                 icon: Icons.home,
                 text: 'Home',
                 onPressed: () {
@@ -177,6 +179,7 @@ Builder navbar() {
                 },
               ),
               GButton(
+                iconActiveColor: Colors.pinkAccent,
                 icon: Icons.favorite_outline,
                 text: 'Like',
                 onPressed: () {
@@ -184,6 +187,7 @@ Builder navbar() {
                 },
               ),
               GButton(
+                iconActiveColor: Colors.yellowAccent,
                 icon: Icons.pets_sharp,
                 text: 'Adopte',
                 onPressed: () {
@@ -191,6 +195,7 @@ Builder navbar() {
                 },
               ),
               GButton(
+                iconActiveColor: Colors.blueAccent,
                 icon: Icons.messenger_outline_rounded,
                 text: 'Chat',
                 onPressed: () {
@@ -205,6 +210,7 @@ Builder navbar() {
                 },
               ),
               GButton(
+                iconActiveColor: Colors.blueAccent,
                 icon: Icons.person_outlined,
                 text: 'Profile',
                 onPressed: () {
